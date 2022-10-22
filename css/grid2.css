@@ -1,0 +1,82 @@
+* {
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	line-height: inherit;
+    text-align: inherit;
+    color: inherit;
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  background: #000000;
+  color: #ffffff;
+  font-family: Oxygen;
+}
+
+#container{
+    grid-template-columns: repeat(5,1fr);
+    padding: 1em;
+    grid-auto-rows: minmax(6 em, auto);
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "header main main main main"
+    "nav main main main main"
+    "nav main main main main"
+}
+
+#container *{
+    padding: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    align-items: center;
+}
+
+main {
+    grid-area: main;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+b{
+    font-weight: 700;
+}
+
+ul{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+li{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+.sspace{
+    line-height: 1.2em !important; 
+}
