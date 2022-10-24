@@ -46,5 +46,10 @@ node_modules/
 package-lock.json
 
 ### Custom Files ###
-dist/
 bundled/
+img/
+.well-known
+.babelrc
+gulpfile.babel.js
+package.json
+
