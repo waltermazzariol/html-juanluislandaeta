@@ -134,7 +134,8 @@ a:hover{
 .artwork{
   /*  display: none; */
     width: 66vw;
-    object-fit: fill 
+    object-fit: fill;
+    overflow: hidden;
 }
 
 .gallery-title{
@@ -242,6 +243,7 @@ a:hover{
     letter-spacing: 0.3em;
     line-height: 2em;
     padding-bottom: 0px !important;
+    margin-top: 15px;
 }
 
 .press2 {
