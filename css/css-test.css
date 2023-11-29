@@ -179,6 +179,9 @@ a:hover{
     padding-right: 2em;
 
 }
+#bio-col--1{
+    column-count: 1;
+}
 @media only screen and (max-width: 1500px){
     #bio-col{
         column-count: 2;

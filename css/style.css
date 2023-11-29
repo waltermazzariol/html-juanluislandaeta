@@ -37,3 +37,12 @@
   }
 }
 */
+
+.img-fluid{
+  max-width: 100%;
+}
+
+small{
+  color: #909090;
+  font-size: 0.7rem;
+}
